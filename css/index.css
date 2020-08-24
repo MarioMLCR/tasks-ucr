@@ -85,12 +85,6 @@ body {
   color: #545C78;
 }
 
-.container .form-works form .input:focus {
-  border-bottom: 2px solid #ccc;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
-}
-
 .container .container-works {
   border-radius: 5px;
   width: 48%;
