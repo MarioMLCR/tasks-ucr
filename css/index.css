@@ -2,12 +2,13 @@ body {
   background: url("../src/images/bg1.png");
   background-position: fixed;
   font-family: 'Saira', Arial, Helvetica, sans-serif;
+  color: #2A2E3C;
 }
 
 .html {
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   background-color: rgba(54, 73, 78, 0.8);
 }
@@ -15,7 +16,6 @@ body {
 .container {
   padding-top: 135px;
   width: 90%;
-  max-width: 1100px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,5 +137,22 @@ body {
   color: #fff;
   text-align: center;
   margin-top: 90px;
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .form-works,
+  .container .container-works {
+    width: 100%;
+    margin: auto;
+  }
+  .container .form-works {
+    margin-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
