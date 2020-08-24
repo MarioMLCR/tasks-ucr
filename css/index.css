@@ -1,0 +1,141 @@
+body {
+  background: url("../src/images/bg1.png");
+  background-position: fixed;
+  font-family: 'Saira', Arial, Helvetica, sans-serif;
+}
+
+.html {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(54, 73, 78, 0.8);
+}
+
+.container {
+  padding-top: 135px;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container h1 .fas {
+  color: #FFD35C;
+}
+
+.container .form-works {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 48%;
+  padding: 30px;
+}
+
+.container .form-works form {
+  color: #9FA6BC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .form-works form label {
+  margin-bottom: 5px;
+}
+
+.container .form-works form .btn {
+  width: 50%;
+  margin: auto;
+  background-color: #32E875;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+.container .form-works form .btn:hover {
+  background-color: #16CA58;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.container .form-works form .input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  outline: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #545C78;
+}
+
+.container .form-works form .input:focus {
+  border-bottom: 2px solid #ccc;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.container .container-works {
+  border-radius: 5px;
+  width: 48%;
+  background-color: #fff;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.container .container-works .line {
+  top: 43px;
+  margin: auto;
+  position: absolute;
+  width: 94%;
+  border-bottom: 2px solid black;
+}
+
+.container .container-works .table {
+  width: 100%;
+}
+
+.container .container-works .table .ocult {
+  color: #fff;
+}
+
+.container .container-works .table th {
+  border-bottom: solid 20px transparent;
+}
+
+.container .container-works .table td {
+  border-bottom: 10px solid transparent;
+  text-align: center;
+  margin: 0;
+}
+
+.container .container-works .table td .fas {
+  color: #E63946;
+}
+
+.container .container-works .table td .fas:hover {
+  color: #DA1B2B;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 90px;
+}
+/*# sourceMappingURL=index.css.map */
